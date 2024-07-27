@@ -25,13 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Santorini</a>
+                            <a class="nav-link" href="/santorini">Santorini</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Mykonos</a>
+                            <a class="nav-link" href="/mykonos">Mykonos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="greeceAppName"></a>
                         </li>
                     </ul>
                 </div>
@@ -48,6 +51,64 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row my-3">
+                <div>
+                    <h1>Greece at a glance <button class="btn btn-primary" onclick="greece.myClick()">hello</button></h1>
+                    <hr/>
+                </div>
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+            
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+                </div>
+            
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+            
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                </div>
+            
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+            
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                        class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+                </div>
+            </div>
+            <div class="row my-3">
+                <div>
+                    <h1>What is Greece is famous about</h1>
+                    <hr/>
+                </div>
+                <div>
+                    <p>
+                        Greece is renowned for its rich ancient history and archaeology, home to iconic sites like the Acropolis and Parthenon
+                        in Athens, and Olympia, the birthplace of the Olympic Games. It is the cradle of Western philosophy and literature, with
+                        famous philosophers such as Socrates, Plato, and Aristotle, and epic poems by Homer. Greek mythology, with its pantheon
+                        of gods and heroes, has significantly influenced Western culture. Greece's beautiful islands, including Santorini with
+                        its stunning sunsets and Mykonos known for its vibrant nightlife, attract many visitors. The country’s cuisine,
+                        featuring dishes like moussaka, souvlaki, and baklava, is beloved worldwide. Greece's Mediterranean climate and pristine
+                        beaches, along with its traditional music, dance, and cultural festivals, enhance its appeal. Greek architecture,
+                        especially its classical columns and temples, has left a lasting legacy on Western design. Modern Greek culture,
+                        including its music and literature, continues to contribute to the global arts scene. With its scenic landscapes of
+                        mountains, valleys, and coastlines, Greece offers a captivating blend of natural beauty and cultural richness.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <footer class="bg-body-tertiary text-center text-lg-start" data-bs-theme="dark">
+            <div class="text-center p-3 text-white" >
+                © 2023 Copyright:
+                <a class="text-body" >Greece</a>
+            </div>
+        </footer>
     </div>
 
     <script src="index.js"></script>
